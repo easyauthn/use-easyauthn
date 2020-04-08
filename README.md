@@ -36,4 +36,4 @@ You can change the [port](https://github.com/easyauthn/use-easyauthn/blob/master
 
 ###  Service Secret Key (SSK)
 
-SSK is used by the `DemoClient` to present itself to the server. The SSK in this tutorial is for test. Dont use it in production. Users created with SSK from this tutorial will be deleted regularly. For example every 24 hours. 
+SSK is used by the `DemoClient` to present itself to the server. The SSK in this tutorial is for test. Dont use it in production. All data created by SSK from this tutorial will be deleted regularly. For example every 24 hours. 
