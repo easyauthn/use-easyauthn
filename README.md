@@ -1,4 +1,4 @@
-# use-easy-authn
+# use-easyauthn
 In this tutorial, we'll look at how to integrate with `EasyAuthn` and to implement (Two-factor authentication). The name of the client who will integrate `EasyAuthn` is `DemoClient`. This is an example and the focus is how to integrate and use `EasyAuthn`. On your production solution you should do something better with `DemoClient` security implementation, but the `EasyAuthn` integration should be similar.
 
 ## Table of contents
@@ -36,4 +36,4 @@ You can change the [port](https://github.com/easyauthn/use-easyauthn/blob/master
 
 ###  Service Secret Key (SSK)
 
-SSK is used by the `DemoClient` to present itself to the server. The SSK in this tutorial is for test. Dont use it in production. All data created by SSK from this tutorial will be deleted regularly. For example every 24 hours. 
+SSK is used by the `DemoClient` to present itself to the EasyAuthn. The SSK in this tutorial is for test. Dont use it in production. All data created on EasyAuthn by SSK from this tutorial will be deleted regularly. For example every 24 hours. 
